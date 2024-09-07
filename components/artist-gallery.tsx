@@ -13,7 +13,6 @@ import {
   XLogo,
   LinkSimple,
   MagnifyingGlass,
-  YoutubeLogo,
   Robot,
   GithubLogo,
 } from "@phosphor-icons/react";
