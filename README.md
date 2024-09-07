@@ -45,7 +45,11 @@ Build a public press kit site. There really should be public press kit site for 
 
 Linktree might be close to this as it does provide press kit links.
 
-#### Google Analytics
+### Contributing
+
+If you're interesting helping research artist info, you can add any details on the [discussion board](https://github.com/headwinds/sun-and-bass/discussions) or open a PR to add it for me.
+
+### Google Analytics
 
 I dusted off my GA accounted and at first struggled to find the add new property button.
 
