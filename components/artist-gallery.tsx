@@ -2,12 +2,27 @@
 
 import React from "react";
 import Masonry from "react-masonry-css";
-import { ExternalLink, Link, Music } from "lucide-react";
+import {
+  TiktokLogo,
+  SoundcloudLogo,
+  ThreadsLogo,
+  LinktreeLogo,
+  FacebookLogo,
+  Camera,
+  XLogo,
+  LinkSimple,
+  MagnifyingGlass,
+  Robot,
+} from "@phosphor-icons/react";
+import Image from "next/image";
+import Flag from "react-world-flags";
+import Link from "next/link";
 
-import { lineup } from "../data/lineup";
+import { lineup, countryMap } from "../data/lineup";
 
 // This function would need to be implemented to fetch images based on the artist's name or country
 // It's a placeholder and won't actually work as is
+/*
 const getArtistImage = (photoUrl: string, name: string) => {
   // Implement your logic here to return the appropriate image URL
   // This could involve API calls, database lookups, etc.
@@ -17,25 +32,95 @@ const getArtistImage = (photoUrl: string, name: string) => {
   return `/placeholder.svg?height=300&width=300&text=${encodeURIComponent(
     name
   )}`;
+};*/
+
+const getCode = (country: string) => {
+  return countryMap[country];
+};
+
+const getSearchName = (artist: Artist): string => {
+  return String(`Drum and Bass Artist: ${artist.artistName}`);
+};
+
+const getGoogleSearch = (artist: Artist): string => {
+  return String(
+    `https://www.google.com/search?q=${encodeURIComponent(
+      getSearchName(artist)
+    )}`
+  );
+};
+
+const getPerplexitySearch = (artist: Artist): string => {
+  const nlp = `this drum and bass music artist who goes by ${artist.artistName} hailing from ${artist.homeCountry} will dj at sun and bass 2024`;
+
+  return String(
+    `https://www.perplexity.ai/search?q=${encodeURIComponent(
+      getSearchName(artist)
+    )}&focus=[internet,dj,drum and bass,youtube]&q=${encodeURIComponent(nlp)}`
+  );
+};
+
+const Search = ({ artist }: { artist: Artist }) => {
+  const googleUrl = getGoogleSearch(artist) ?? "";
+  console.log("what", googleUrl);
+  const perplexityUrl = getPerplexitySearch(artist) ?? "";
+
+  return (
+    <>
+      {/*<a
+        href={googleUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-stone-800 hover:text-stone-600 transition-colors duration-300"
+      >
+        <MagnifyGlass size={32} weight="fill" />
+      </a>
+
+      <a
+        href={perplexityUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-stone-800 hover:text-stone-600 transition-colors duration-300"
+      >
+        <Robot size={32} weight="fill" />
+      </a>*/}
+      <Link href={googleUrl}>
+        <MagnifyingGlass size={32} weight="fill" />
+      </Link>
+      <Link href={perplexityUrl}>
+        <Robot size={32} weight="fill" />
+      </Link>
+    </>
+  );
 };
 
 type Artist = {
-  name: string;
-  photo: string;
-  website: string;
-  linktree: string;
-  soundcloudUrl: string;
-  homeCountry: string;
+  artistName: string;
+  linktreeUrl?: string | null;
+  youtubeUrl?: string | null;
+  websiteUrl?: string | null;
+  soundcloudUrl?: string | null;
+  photoUrl?: string | null;
+  photoSource?: string | null;
+  homeCountry?: string;
+  instagramUrl?: string | null;
+  tiktokUrl?: string | null;
+  facebookUrl?: string | null;
+  twitterUrl?: string | null;
 };
 
-const artists = lineup.artists.map((artist: Artist) => ({
-  name: artist.name,
-  image: getArtistImage(artist.photoUrl, artist.name),
-  website: artist.websiteUrl,
-  linktree: artist.linktreeUrl,
-  music: artist.soundcloudUrl,
-  homeCountry: artist.homeCountry,
-}));
+const artists: Artist[] = lineup.artists as Artist[];
+
+const Country = ({ country }: { country: string }) => {
+  return (
+    <div className="flex items-center space-x-2 justify-center">
+      <div className="w-[60px] h-[60px]">
+        <Flag code={getCode(country)} />
+      </div>
+      {/*<span>{country}</span>*/}
+    </div>
+  );
+};
 
 export function ArtistGallery() {
   const breakpointColumnsObj = {
@@ -59,40 +144,114 @@ export function ArtistGallery() {
         {artists.map((artist, index) => (
           <div key={index} className="mb-4">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <img
-                src={artist.image}
-                alt={artist.name}
-                className="w-full h-48 object-cover"
-              />
+              {artist.photoUrl ? (
+                <Image
+                  src={artist.photoUrl}
+                  alt={artist.artistName}
+                  className="w-full h-48 object-cover"
+                  //fill={true}
+                  //className="object-cover"
+                  width={300}
+                  height={200}
+                />
+              ) : (
+                <div className="w-full h-48 bg-gray-300 flex items-center justify-center">
+                  <span className="text-gray-500 text-2xl">😔 no photo</span>
+                </div>
+              )}
               <div className="p-4">
-                <h2 className="text-xl font-semibold mb-2 truncate">
-                  {artist.name}
-                </h2>
-                <div className="flex space-x-2">
-                  <a
-                    href={artist.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-500 hover:text-blue-700 transition-colors duration-300"
-                  >
-                    <ExternalLink size={20} />
-                  </a>
-                  <a
-                    href={artist.linktree}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-green-500 hover:text-green-700 transition-colors duration-300"
-                  >
-                    <Link size={20} />
-                  </a>
-                  <a
-                    href={artist.music}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-red-500 hover:text-red-700 transition-colors duration-300"
-                  >
-                    <Music size={20} />
-                  </a>
+                <div className="flex text-xl font-semibold mb-2 truncate justify-between items-normal">
+                  <h2>{artist.artistName}</h2>
+                  {artist.homeCountry ? (
+                    <Country country={artist.homeCountry} />
+                  ) : (
+                    ""
+                  )}
+                </div>
+
+                <div className="flex space-x-2 rounded-sm bg-stone-100 p-2">
+                  {artist.websiteUrl ? (
+                    <a
+                      href={artist.websiteUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:text-blue-700 transition-colors duration-300"
+                    >
+                      <LinkSimple size={32} weight="fill" />
+                    </a>
+                  ) : null}
+                  {artist.linktreeUrl ? (
+                    <a
+                      href={artist.linktreeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-green-500 hover:text-green-700 transition-colors duration-300"
+                    >
+                      <LinktreeLogo size={32} weight="fill" />
+                    </a>
+                  ) : null}
+                  {artist.soundcloudUrl ? (
+                    <a
+                      href={artist.soundcloudUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-red-500 hover:text-red-700 transition-colors duration-300"
+                    >
+                      <SoundcloudLogo size={32} weight="fill" />
+                    </a>
+                  ) : null}
+                  {artist.instagramUrl ? (
+                    <a
+                      href={artist.instagramUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-yellow-500 hover:text-yellow-600 transition-colors duration-300"
+                    >
+                      <ThreadsLogo size={32} weight="fill" />
+                    </a>
+                  ) : null}
+                  {artist.facebookUrl ? (
+                    <a
+                      href={artist.facebookUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-400 hover:text-blue-300 transition-colors duration-300"
+                    >
+                      <FacebookLogo size={32} weight="fill" />
+                    </a>
+                  ) : null}
+                  {artist.twitterUrl ? (
+                    <a
+                      href={artist.twitterUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[black] hover:text-[black] transition-colors duration-300"
+                    >
+                      <XLogo size={32} weight="fill" />
+                    </a>
+                  ) : null}
+                  {artist.tiktokUrl ? (
+                    <a
+                      href={artist.tiktokUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-red-500 hover:text-red-700 transition-colors duration-300"
+                    >
+                      <TiktokLogo size={32} weight="fill" />
+                    </a>
+                  ) : null}
+                  {artist.photoSource ? (
+                    <a
+                      href={artist.photoSource}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-stone-800 hover:text-stone-600 transition-colors duration-300"
+                    >
+                      <Camera size={32} weight="fill" />
+                    </a>
+                  ) : null}
+
+                  <Search artist={artist} />
                 </div>
               </div>
             </div>

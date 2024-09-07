@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# sun and bass lineup 2024 challenge
 
-## Getting Started
+[v0](https://v0.dev/)
+[pnpm](https://pnpm.io/)
+[sunandbass lineup](https://sunandbass.net/site/line-up-2024/)
 
-First, run the development server:
+ <img src="./guide/lineup.png" width="300" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+```
+pnpm i
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[post](https://twitter.com/headwinds/status/1832081717135299043)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[react-world-flags](https://github.com/smucode/react-world-flags)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[phosphor](https://www.npmjs.com/package/@phosphor-icons/react)
 
-## Learn More
+### Pain Points
 
-To learn more about Next.js, take a look at the following resources:
+Problem
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+why is it so challenging to find Artist photos? And why should I have to configure Next Image for a every url?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Solution
 
-## Deploy on Vercel
+There should be public press kit site for every artist which easy image urls for promoters
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Google Analytics
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I dusted off my GA accounted and at first struggled to find the add new property bottom.
+
+Ideally, it should have have been placed at the top where you view the properties but instead it's hidden with in the admin gear at that the bottom on the screen.
+
+1. click the Admin gear.
+   <img src="./guide/sun_create_property.png" width="300" />
+
+2. add the custom property (if you're new, you'll have to setup your account first)
+   <img src="./guide/sun_property.png" width="300" />
+
+Since this is nextjs, see my app > layout.tsx for the implementation which relies on [@next/third-parties/google](https://nextjs.org/docs/messages/next-script-for-ga#use-nextthird-parties-to-add-google-analyticsa)

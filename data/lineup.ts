@@ -1,3 +1,18 @@
+export const countryMap = {
+  "United Kingdom": "gb",
+  Israel: "IL",
+  Italy: "IT",
+  Hungary: "HU",
+  Australia: "AU",
+  "New Zealand": "NZ",
+  Brazil: "BR",
+  Japan: "JP",
+  Sweden: "SE",
+  France: "FR",
+  "United States": "US",
+  Ireland: "IE",
+};
+
 export const lineup = {
   artists: [
     {
@@ -6,21 +21,27 @@ export const lineup = {
       youtubeUrl: null,
       websiteUrl: "https://www.bassdrive.com/artists/a-sides",
       soundcloudUrl: null,
-      photoUrl: null,
+      photoUrl:
+        "https://imgproxy.ra.co/_/quality:66/h:180/w:180/rt:fill/gravity:sm/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL3Byb2ZpbGVzL2FzaWRlcy5qcGc_ZGF0ZVVwZGF0ZWQ9MTM0NzI5NTM3MDc5MA==",
+      photoSource: "https://www.residentadvisor.net/dj/asides",
       homeCountry: "United Kingdom",
       instagramUrl: null,
       tiktokUrl: null,
+      facebookUrl: "https://www.facebook.com/djasides",
     },
     {
       artistName: "Adi J",
       linktreeUrl: null,
       youtubeUrl: null,
       websiteUrl: null,
-      soundcloudUrl: null,
-      photoUrl: null,
+      soundcloudUrl: "https://soundcloud.com/adi-j-bassground",
+      photoUrl:
+        "https://pbs.twimg.com/profile_images/556897763347415040/kPHph4T-_400x400.jpeg",
+      photoSource: "https://twitter.com/djadij",
       homeCountry: "Israel",
-      instagramUrl: null,
+      instagramUrl: "https://www.instagram.com/djadij/",
       tiktokUrl: null,
+      twitterUrl: "https://twitter.com/djadij",
     },
     {
       artistName: "Alegria",
@@ -734,7 +755,8 @@ export const lineup = {
       youtubeUrl: null,
       websiteUrl: "https://www.john-b.com/site/about/",
       soundcloudUrl: null,
-      photoUrl: null,
+      photoUrl: "http://john-b.com/images/PRphoto_550.jpg",
+      photoSource: "https://www.john-b.com/site/about/",
       homeCountry: "United Kingdom",
       instagramUrl: null,
       tiktokUrl: null,
