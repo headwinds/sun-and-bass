@@ -1,7 +1,8 @@
 "use client";
 
-import React from "react";
+import React, { useState, useMemo } from "react";
 import Masonry from "react-masonry-css";
+import { Search } from "lucide-react";
 import {
   TiktokLogo,
   SoundcloudLogo,
@@ -18,6 +19,8 @@ import {
 import Image from "next/image";
 import Flag from "react-world-flags";
 import Link from "next/link";
+import Fuse from "fuse.js";
+import { SearchInput } from "./input";
 
 import { lineup, countryMap } from "../data/lineup";
 
@@ -47,7 +50,7 @@ const getPerplexitySearch = (artist: Artist): string => {
   );
 };
 
-const Search = ({ artist }: { artist: Artist }) => {
+const SearchInternet = ({ artist }: { artist: Artist }) => {
   const googleUrl = getGoogleSearch(artist) ?? "";
   console.log("what", googleUrl);
   const perplexityUrl = getPerplexitySearch(artist) ?? "";
@@ -79,7 +82,7 @@ type Artist = {
   twitterUrl?: string | null;
 };
 
-const artists: Artist[] = lineup.artists as Artist[];
+const allArtists: Artist[] = lineup.artists as Artist[];
 
 const Country = ({ country }: { country: string }) => {
   return (
@@ -93,6 +96,22 @@ const Country = ({ country }: { country: string }) => {
 };
 
 export function ArtistGallery() {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const fuse = useMemo(
+    () =>
+      new Fuse(allArtists, {
+        keys: ["artistName", "homeCountry"],
+        threshold: 0.3,
+      }),
+    []
+  );
+
+  const filteredArtists = useMemo(() => {
+    if (!searchTerm) return allArtists;
+    return fuse.search(searchTerm).map((result) => result.item);
+  }, [searchTerm, fuse]);
+
   const breakpointColumnsObj = {
     default: 5,
     1500: 4,
@@ -113,17 +132,30 @@ export function ArtistGallery() {
             sunandbass.net
           </a>
         </h2>
-        <p>This site is not affiliated with sun and bass</p>
+        <p>This fan site is not affiliated with sun and bass</p>
         <a href="https://github.com/headwinds/sun-and-bass">
           <GithubLogo size={32} weight="fill" />{" "}
         </a>
+      </div>
+      <div className="relative mb-8 max-w-md mx-auto">
+        <SearchInput
+          type="text"
+          placeholder="Search artists..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="pl-10 w-full"
+        />
+        <Search
+          className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+          size={20}
+        />
       </div>
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="flex w-auto -ml-4"
         columnClassName="pl-4 bg-clip-padding"
       >
-        {artists.map((artist, index) => (
+        {filteredArtists.map((artist, index) => (
           <div key={index} className="mb-4">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               {artist.photoUrl ? (
@@ -233,7 +265,7 @@ export function ArtistGallery() {
                     </a>
                   ) : null}
 
-                  <Search artist={artist} />
+                  <SearchInternet artist={artist} />
                 </div>
               </div>
             </div>
