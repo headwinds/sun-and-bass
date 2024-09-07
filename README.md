@@ -35,13 +35,13 @@ see [package.json](./package.json) for more
 
 ### Pain Points
 
-Problem
+_Problem_
 
 why is it so challenging to find Artist photos? And why should I have to configure Next Image for a every url?
 
-Potential Solution
+_Potential Solution_
 
-There should be public press kit site for every artist which easy image urls for promoters.
+Build a public press kit site. There really should be public press kit site for every artist which makes it easy to grab image urls and links for promoters. Power the site with perplexity! NLP search would be awesome.
 
 Linktree might be close to this as it does provide press kit links.
 
