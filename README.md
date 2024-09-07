@@ -47,7 +47,7 @@ Linktree might be close to this as it does provide press kit links.
 
 ### Contributing
 
-If you're interesting helping research artist info, you can add any details on the [discussion board](https://github.com/headwinds/sun-and-bass/discussions) or open a PR to add it for me.
+If you're interested in helping research artist info, you can add any details on the [discussion board](https://github.com/headwinds/sun-and-bass/discussions) or open a PR with the data added to [lineup.ts](https://github.com/headwinds/sun-and-bass/blob/main/data/lineup.ts)
 
 ### Google Analytics
 
