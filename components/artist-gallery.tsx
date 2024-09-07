@@ -13,6 +13,7 @@ import {
   LinkSimple,
   MagnifyingGlass,
   Robot,
+  GithubLogo,
 } from "@phosphor-icons/react";
 import Image from "next/image";
 import Flag from "react-world-flags";
@@ -101,10 +102,22 @@ export function ArtistGallery() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8 bg-gray-100">
-      <h1 className="text-4xl font-bold text-center mb-8">
+    <div className="container mx-auto px-4 py-8 bg-gray-100 justify-center">
+      <h1 className="text-4xl font-bold text-center mb-8 font-bold font-sans">
         Sun and Bass 2024 Artists
       </h1>
+      <div className="flex flex-col justify-center w-full items-center m-4">
+        <h2>
+          Visit the official{" "}
+          <a href="https://sunandbass.net/" className="underline">
+            sunandbass.net
+          </a>
+        </h2>
+        <p>This site is not affiliated with sun and bass</p>
+        <a href="https://github.com/headwinds/sun-and-bass">
+          <GithubLogo size={32} weight="fill" />{" "}
+        </a>
+      </div>
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="flex w-auto -ml-4"
