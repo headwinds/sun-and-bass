@@ -96,7 +96,7 @@ const Country = ({ country }: { country: string }) => {
   );
 };
 
-const ArtistImgOrPlayer = ({ artist }) => {
+const ArtistImgOrPlayer = ({ artist }: { artist: Artist }) => {
   if (artist.youtubeUrl) {
     return (
       <div className="aspect-w-16 aspect-h-9">
