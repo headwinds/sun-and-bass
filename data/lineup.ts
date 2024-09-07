@@ -1,4 +1,8 @@
-export const countryMap = {
+export type CountryMap = {
+  [key: string]: string;
+};
+
+export const countryMap: CountryMap = {
   "United Kingdom": "gb",
   Israel: "IL",
   Italy: "IT",

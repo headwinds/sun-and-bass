@@ -20,22 +20,8 @@ import Link from "next/link";
 
 import { lineup, countryMap } from "../data/lineup";
 
-// This function would need to be implemented to fetch images based on the artist's name or country
-// It's a placeholder and won't actually work as is
-/*
-const getArtistImage = (photoUrl: string, name: string) => {
-  // Implement your logic here to return the appropriate image URL
-  // This could involve API calls, database lookups, etc.
-  if (photoUrl) {
-    return photoUrl;
-  }
-  return `/placeholder.svg?height=300&width=300&text=${encodeURIComponent(
-    name
-  )}`;
-};*/
-
-const getCode = (country: string) => {
-  return countryMap[country];
+const getCode = (country: string): string => {
+  return countryMap[country] as string;
 };
 
 const getSearchName = (artist: Artist): string => {
@@ -67,23 +53,6 @@ const Search = ({ artist }: { artist: Artist }) => {
 
   return (
     <>
-      {/*<a
-        href={googleUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-stone-800 hover:text-stone-600 transition-colors duration-300"
-      >
-        <MagnifyGlass size={32} weight="fill" />
-      </a>
-
-      <a
-        href={perplexityUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-stone-800 hover:text-stone-600 transition-colors duration-300"
-      >
-        <Robot size={32} weight="fill" />
-      </a>*/}
       <Link href={googleUrl}>
         <MagnifyingGlass size={32} weight="fill" />
       </Link>
