@@ -19,6 +19,10 @@ const nextConfig = {
         hostname: "imgproxy.ra.co",
         //port: "/_/**",
       },
+      {
+        protocol: "https",
+        hostname: "ukf.com",
+      },
     ],
   },
 };
