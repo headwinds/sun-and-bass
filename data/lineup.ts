@@ -882,7 +882,7 @@ export const lineup = {
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/lens",
       photoUrl: "https://ukf.com/wp-content/uploads/2023/11/Lens-headshot.jpg",
-      photoSource: "https://ukf.com/news/lens-announces-debut-album-echoes",
+      photoSource: "https://ukf.com/read/get-to-know-lens/",
       homeCountry: "United Kingdom",
       instagramUrl: null,
       tiktokUrl: null,
