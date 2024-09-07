@@ -1,12 +1,8 @@
 # sun and bass lineup 2024 challenge
 
-- [v0](https://v0.dev/)
-- [pnpm](https://pnpm.io/)
-- [sunandbass lineup](https://sunandbass.net/site/line-up-2024/)
+ <img src="./guide/lineup.png" width="800" />
 
- <img src="./guide/lineup.png" width="300" />
-
-After visiting the sun and bass static linkup page, I wanted to see a rich line up artist gallery with photo, links and set times.
+After visiting the [sunandbass lineup](https://sunandbass.net/site/line-up-2024/) page, I wanted to see a rich line up artist gallery with photo, links and set times.
 
 I have been experimenting with [v0](https://twitter.com/headwinds/status/1832081717135299043) and [perplexity labs](https://labs.perplexity.ai/) for rapid prototyping.
 
@@ -14,9 +10,13 @@ The grand vision would be able to see and track my friends as they experience th
 
 But for now, this is how far I got after a few hours of research; searching for artist info is labour of love but I still get tired after a while and spending any more than 5 minutes trying to get their photo to display really sucks the wind out...
 
-[demo](https://sunandbass-lineup-2024.vercel.app/)
+### Demo
+
+[sunandbass-lineup-2024.vercel.app](https://sunandbass-lineup-2024.vercel.app/)
 
 ### Install
+
+- [pnpm](https://pnpm.io/)
 
 ```
 pnpm i
