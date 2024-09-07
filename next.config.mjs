@@ -23,6 +23,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "ukf.com",
       },
+      {
+        protocol: "https",
+        hostname: "sunandbass.net",
+      },
     ],
   },
 };

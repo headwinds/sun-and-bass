@@ -22,7 +22,8 @@ export const lineup = {
     {
       artistName: "A Sides",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl:
+        "https://www.youtube.com/watch?v=Sk9oWjOFm4A&list=RDEM5NJRalKMVZze7UzGtSubZg&start_radio=1",
       websiteUrl: "https://www.bassdrive.com/artists/a-sides",
       soundcloudUrl: null,
       photoUrl:
@@ -36,7 +37,7 @@ export const lineup = {
     {
       artistName: "Adi J",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=VRjlWQ6EpHM",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/adi-j-bassground",
       photoUrl:
@@ -50,7 +51,8 @@ export const lineup = {
     {
       artistName: "Alegria",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl:
+        "https://www.youtube.com/watch?v=1fzuPMWszVo&list=PLmT1fqjuXeERGrM5OzUOLScvAMr7Eif9A",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -61,7 +63,7 @@ export const lineup = {
     {
       artistName: "Alibi",
       linktreeUrl: "https://linktr.ee/alibi12",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=XQIoyqQVOKU",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/alibi",
       photoUrl: null,
@@ -75,15 +77,17 @@ export const lineup = {
       youtubeUrl: null,
       websiteUrl: null,
       soundcloudUrl: null,
-      photoUrl: null,
-      homeCountry: "United Kingdom",
+      photoUrl:
+        "https://sunandbass.net/site/wp-content/uploads/2020/12/SABWOMXN-SLIDE-ALITE-scaled.jpg",
+      photoSource: "https://sunandbass.net/site/alite/",
+      homeCountry: "Italy",
       instagramUrl: null,
       tiktokUrl: null,
     },
     {
       artistName: "Alley Cat",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=bjLBAwhtKHI",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,

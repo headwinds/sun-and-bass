@@ -13,6 +13,7 @@ import {
   XLogo,
   LinkSimple,
   MagnifyingGlass,
+  YoutubeLogo,
   Robot,
   GithubLogo,
 } from "@phosphor-icons/react";
@@ -21,6 +22,7 @@ import Flag from "react-world-flags";
 import Link from "next/link";
 import Fuse from "fuse.js";
 import { SearchInput } from "./input";
+import ReactPlayer from "react-player/youtube";
 
 import { lineup, countryMap } from "../data/lineup";
 
@@ -95,6 +97,41 @@ const Country = ({ country }: { country: string }) => {
   );
 };
 
+const ArtistImgOrPlayer = ({ artist }) => {
+  if (artist.youtubeUrl) {
+    return (
+      <div className="aspect-w-16 aspect-h-9">
+        <ReactPlayer
+          url={artist.youtubeUrl}
+          width="100%"
+          height="100%"
+          controls={true}
+        />
+      </div>
+    );
+  }
+
+  if (artist.photoUrl) {
+    return (
+      <Image
+        src={artist.photoUrl}
+        alt={artist.artistName}
+        className="w-full h-48 object-cover"
+        //fill={true}
+        //className="object-cover"
+        width={300}
+        height={200}
+      />
+    );
+  }
+
+  return (
+    <div className="w-full h-48 bg-gray-300 flex items-center justify-center">
+      <span className="text-gray-500 text-2xl">😔 no photo</span>
+    </div>
+  );
+};
+
 export function ArtistGallery() {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -121,10 +158,17 @@ export function ArtistGallery() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8 bg-gray-100 justify-center">
-      <h1 className="text-4xl font-bold text-center mb-8 font-bold font-sans">
-        Sun and Bass 2024 Artists
+    <div className="container mx-auto px-4 py-8 bg-gray-100">
+      <style jsx global>{`
+        @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+      `}</style>
+      <h1
+        className="text-4xl font-bold text-center mb-8"
+        style={{ fontFamily: "'Satisfy', cursive" }}
+      >
+        Sun and Bass Artists 2024
       </h1>
+
       <div className="flex flex-col justify-center w-full items-center m-4">
         <h2>
           Visit the official{" "}
@@ -158,21 +202,6 @@ export function ArtistGallery() {
         {filteredArtists.map((artist, index) => (
           <div key={index} className="mb-4">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              {artist.photoUrl ? (
-                <Image
-                  src={artist.photoUrl}
-                  alt={artist.artistName}
-                  className="w-full h-48 object-cover"
-                  //fill={true}
-                  //className="object-cover"
-                  width={300}
-                  height={200}
-                />
-              ) : (
-                <div className="w-full h-48 bg-gray-300 flex items-center justify-center">
-                  <span className="text-gray-500 text-2xl">😔 no photo</span>
-                </div>
-              )}
               <div className="p-4">
                 <div className="flex text-xl font-semibold mb-2 truncate justify-between items-normal">
                   <h2>{artist.artistName}</h2>
@@ -182,7 +211,7 @@ export function ArtistGallery() {
                     ""
                   )}
                 </div>
-
+                <ArtistImgOrPlayer artist={artist} />
                 <div className="flex space-x-2 rounded-sm bg-stone-100 p-2">
                   {artist.websiteUrl ? (
                     <a
@@ -204,6 +233,7 @@ export function ArtistGallery() {
                       <LinktreeLogo size={32} weight="fill" />
                     </a>
                   ) : null}
+
                   {artist.soundcloudUrl ? (
                     <a
                       href={artist.soundcloudUrl}
