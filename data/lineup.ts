@@ -880,7 +880,7 @@ export const lineup = {
       linktreeUrl: null,
       youtubeUrl: null,
       websiteUrl: null,
-      soundcloudUrl: "https://soundcloud.com/lens",
+      soundcloudUrl: "https://soundcloud.com/lens_dnb",
       photoUrl: "https://ukf.com/wp-content/uploads/2023/11/Lens-headshot.jpg",
       photoSource: "https://ukf.com/read/get-to-know-lens/",
       homeCountry: "United Kingdom",
