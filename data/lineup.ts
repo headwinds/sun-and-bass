@@ -762,7 +762,7 @@ export const lineup = {
     {
       artistName: "John B",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=xhF2TNtGvJk",
       websiteUrl: "https://www.john-b.com/site/about/",
       soundcloudUrl: null,
       photoUrl: "http://john-b.com/images/PRphoto_550.jpg",
