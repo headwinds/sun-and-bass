@@ -806,7 +806,7 @@ export const lineup = {
     {
       artistName: "Keeno",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=gJRzB6daFIE",
       websiteUrl: "https://www.keenodnb.com",
       soundcloudUrl: null,
       photoUrl: null,
@@ -817,7 +817,7 @@ export const lineup = {
     {
       artistName: "Kid Drama",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=aXhUtn6rasQ",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -828,7 +828,7 @@ export const lineup = {
     {
       artistName: "Kiljoy",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=fuFFu6YV1jk&t=1s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -850,7 +850,7 @@ export const lineup = {
     {
       artistName: "Klute",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=P0ZmVorLPXE",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/klute",
       photoUrl: null,
@@ -861,7 +861,7 @@ export const lineup = {
     {
       artistName: "Kyrist",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=6AdsZ5y1fag",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/kyrist",
       photoUrl: null,
@@ -872,7 +872,7 @@ export const lineup = {
     {
       artistName: "Last Life",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=qQkM4VeAMsM",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/lastlife",
       photoUrl: null,
@@ -883,7 +883,7 @@ export const lineup = {
     {
       artistName: "Lee",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=t0TrV79jf_Q&t=10s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -906,7 +906,7 @@ export const lineup = {
     {
       artistName: "Lenzman",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=u_sYiwvpdcM",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/lenzman",
       photoUrl: null,
@@ -917,7 +917,7 @@ export const lineup = {
     {
       artistName: "Level 2",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=nn_iC1F9brI&t=1s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/level2",
       photoUrl: null,
@@ -928,7 +928,7 @@ export const lineup = {
     {
       artistName: "London Elektricity",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=RYWVl3dTRuc",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/londonelektricity",
       photoUrl: null,
@@ -939,7 +939,7 @@ export const lineup = {
     {
       artistName: "Lowqui",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=145P2fUuxEo&t=3s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/lowqui",
       photoUrl: null,
@@ -950,7 +950,7 @@ export const lineup = {
     {
       artistName: "Loxy",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=VHbowIxNcN4&t=1s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/loxy",
       photoUrl: null,
@@ -961,7 +961,7 @@ export const lineup = {
     {
       artistName: "LSB",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=hRdElrzlF4w&t=1s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/lsb",
       photoUrl: null,
@@ -972,7 +972,7 @@ export const lineup = {
     {
       artistName: "Ly Da Buddah",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=gBgONI_-d1s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -983,7 +983,7 @@ export const lineup = {
     {
       artistName: "Mad Vibes",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=VOoOlAxdy6I&t=2s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -995,7 +995,7 @@ export const lineup = {
     {
       artistName: "Mako",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=S4chNUwaL8s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/mako",
       photoUrl: null,
@@ -1006,7 +1006,7 @@ export const lineup = {
     {
       artistName: "Makoto",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=XirkXkM5HMo",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/makoto",
       photoUrl: null,
@@ -1028,7 +1028,7 @@ export const lineup = {
     {
       artistName: "Mark System",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=20UhVEcOiRI",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/marksystem",
       photoUrl: null,
@@ -1039,7 +1039,7 @@ export const lineup = {
     {
       artistName: "Marky",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=8o7AMMF88hA",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/marky",
       photoUrl: null,
@@ -1050,7 +1050,7 @@ export const lineup = {
     {
       artistName: "Marvelous",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=YvN-Y5ch7_g&t=1s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1061,7 +1061,7 @@ export const lineup = {
     {
       artistName: "Melysma",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=HmWs9hO9F3M",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1072,7 +1072,7 @@ export const lineup = {
     {
       artistName: "Mindstate",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=h9CkcHJm--M",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/mindstate",
       photoUrl: null,
@@ -1083,7 +1083,7 @@ export const lineup = {
     {
       artistName: "Monrroe",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=f4UhbFDNzts",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/monrroe",
       photoUrl: null,
@@ -1094,7 +1094,7 @@ export const lineup = {
     {
       artistName: "Moose",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=dy-Fe0xD2pg&t=1s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1105,7 +1105,7 @@ export const lineup = {
     {
       artistName: "Need for Mirrors",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=FUbLZci4nFg&t=1s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/needformirrors",
       photoUrl: null,
