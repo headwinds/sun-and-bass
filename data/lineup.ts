@@ -433,10 +433,13 @@ export const lineup = {
       youtubeUrl: null,
       websiteUrl: null,
       soundcloudUrl: null,
-      photoUrl: null,
+      photoUrl:
+        "https://sunandbass.net/site/wp-content/uploads/2020/12/SABWOMXN-SLIDE-KIMDLH-scaled.jpg",
+      photoSource: "https://sunandbass.net/site/kim-de-la-haye/",
       homeCountry: null,
       instagramUrl: null,
       tiktokUrl: null,
+      sunandbassUrl: "https://sunandbass.net/site/kim-de-la-haye/",
     },
     {
       artistName: "Delicat",
@@ -444,15 +447,18 @@ export const lineup = {
       youtubeUrl: null,
       websiteUrl: null,
       soundcloudUrl: null,
-      photoUrl: null,
+      photoUrl:
+        "https://sunandbass.net/site/wp-content/uploads/2017/02/SUNANDBASS-57-Delicat-NET.jpg",
+      photoSource: "https://sunandbass.net/site/57-dj-delicat/",
       homeCountry: null,
       instagramUrl: null,
       tiktokUrl: null,
+      sunandbassUrl: "https://sunandbass.net/site/57-dj-delicat/",
     },
     {
       artistName: "Die",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=8cHvELzu4ls",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/die",
       photoUrl: null,
@@ -463,7 +469,7 @@ export const lineup = {
     {
       artistName: "Digital",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=zaZgbl3kVy0",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/digital",
       photoUrl: null,
@@ -474,7 +480,7 @@ export const lineup = {
     {
       artistName: "DLR",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=_xeUV3u0WIo",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/dlr",
       photoUrl: null,
@@ -485,7 +491,7 @@ export const lineup = {
     {
       artistName: "Doc Scott",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=gQ9agNuDkvA",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/docscott",
       photoUrl: null,
@@ -496,7 +502,7 @@ export const lineup = {
     {
       artistName: "Dogger",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=-baPPSMbylc&t=4s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -507,7 +513,7 @@ export const lineup = {
     {
       artistName: "Dom & Roland",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=4OChG9IfwHM",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/domandroland",
       photoUrl: null,
@@ -518,7 +524,7 @@ export const lineup = {
     {
       artistName: "Double O",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=ulNX3e1IJhw",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/double-o",
       photoUrl: null,
@@ -529,7 +535,7 @@ export const lineup = {
     {
       artistName: "DRS",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=WfOAF0QAteU&t=1s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/drs",
       photoUrl: null,
@@ -540,7 +546,7 @@ export const lineup = {
     {
       artistName: "Dub FX",
       linktreeUrl: null,
-      youtubeUrl: "https://www.youtube.com/user/DubFX",
+      youtubeUrl: "https://www.youtube.com/watch?v=UiInBOVHpO8",
       websiteUrl: "https://www.dubfx.net/",
       soundcloudUrl: "https://soundcloud.com/dubfx",
       photoUrl: null,
@@ -551,7 +557,7 @@ export const lineup = {
     {
       artistName: "Duskee",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=f74Qn2Xm3UE",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/duskee",
       photoUrl: null,
