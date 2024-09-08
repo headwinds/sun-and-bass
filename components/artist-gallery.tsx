@@ -103,10 +103,10 @@ const ArtistImgOrPlayer = ({
   selectedArtistYoutube,
 }: {
   artist: Artist;
-  selectedArtistYoutube: Artist;
+  selectedArtistYoutube: Artist | null;
 }) => {
   const isSelectedYoutube =
-    artist.artistName === selectedArtistYoutube.artistName;
+    artist?.artistName === selectedArtistYoutube?.artistName;
 
   if (artist.youtubeUrl && isSelectedYoutube) {
     return (
@@ -175,7 +175,8 @@ const ArtistImgOrPlayer = ({
 
 export function ArtistGallery() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedArtistYoutube, setSelectedArtistYoutube] = useState(false);
+  const [selectedArtistYoutube, setSelectedArtistYoutube] =
+    useState<Artist | null>(null);
 
   const handleYoutube = (artist: Artist) => {
     setSelectedArtistYoutube(artist);
