@@ -1116,7 +1116,7 @@ export const lineup = {
     {
       artistName: "NME Click",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=000UWsOA8cc",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1127,18 +1127,18 @@ export const lineup = {
     {
       artistName: "NoDave",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=nRdP5jqPhEU&t=1s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
-      homeCountry: null,
+      homeCountry: "Canada",
       instagramUrl: null,
       tiktokUrl: null,
     },
     {
       artistName: "Ocean Dawn",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=WroSJjrSGaw&t=1s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1160,7 +1160,7 @@ export const lineup = {
     {
       artistName: "Outrage",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=lnvQe-SwSs4",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/outrage",
       photoUrl: null,
@@ -1171,7 +1171,7 @@ export const lineup = {
     {
       artistName: "Overfiend",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=oCMAeC-Rgj0",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1193,7 +1193,7 @@ export const lineup = {
     {
       artistName: "Patife",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=ZrxAJP2HmjI",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/patife",
       photoUrl: null,
@@ -1204,7 +1204,7 @@ export const lineup = {
     {
       artistName: "Paul T & Edward Oberon",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=DxKdwjq8sYI&t=1s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/paultandedwardoberon",
       photoUrl: null,
@@ -1215,7 +1215,7 @@ export const lineup = {
     {
       artistName: "Presha",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=0OyYbbo6Vh4",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/presha",
       photoUrl: null,
@@ -1226,7 +1226,7 @@ export const lineup = {
     {
       artistName: "Redeyes",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=_0daC2ymXNI&t=1s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/redeyes",
       photoUrl: null,
@@ -1237,7 +1237,7 @@ export const lineup = {
     {
       artistName: "Riya",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=NhYxziL0dxE&t=7s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/riya",
       photoUrl: null,
