@@ -98,18 +98,21 @@ export const lineup = {
     {
       artistName: "Anile",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl:
+        "https://www.perplexity.ai/search/drum-and-bass-artist-anile-8MsK.wq_S_WCG89CCUJ7Mg",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/anile",
       photoUrl: null,
       homeCountry: "United Kingdom",
       instagramUrl: "https://www.instagram.com/anilemusic",
       tiktokUrl: null,
+      sunandbassUrl: "https://sunandbass.net/site/44-anile/",
     },
     {
       artistName: "AMA",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl:
+        "https://www.perplexity.ai/search/new?q=pending&newFrontendContextUUID=0f3e7a92-4efe-43a9-938d-5e46eacf545c",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -120,7 +123,7 @@ export const lineup = {
     {
       artistName: "ArpXP",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=xyGkPYqsQn4",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/arp-xp",
       photoUrl: null,
@@ -131,7 +134,7 @@ export const lineup = {
     {
       artistName: "Bailey",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=Qfvjp3Z7SYY",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/baileydnb",
       photoUrl: null,
@@ -142,7 +145,7 @@ export const lineup = {
     {
       artistName: "Bambi Uzi",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=9zKfPMNwP58&t=6s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -153,7 +156,7 @@ export const lineup = {
     {
       artistName: "BCee",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=Whr4ExJhtPg",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/bcee",
       photoUrl: null,

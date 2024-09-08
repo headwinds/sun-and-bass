@@ -13,7 +13,6 @@ import {
   XLogo,
   LinkSimple,
   MagnifyingGlass,
-  Robot,
   GithubLogo,
 } from "@phosphor-icons/react";
 import Image from "next/image";
@@ -22,6 +21,7 @@ import Link from "next/link";
 import Fuse from "fuse.js";
 import { SearchInput } from "./input";
 import ReactPlayer from "react-player/youtube";
+import { PerplexityLogo } from "./perplexityLogo";
 
 import { lineup, countryMap } from "../data/lineup";
 
@@ -58,11 +58,11 @@ const SearchInternet = ({ artist }: { artist: Artist }) => {
 
   return (
     <>
-      <Link href={googleUrl}>
+      <Link href={googleUrl} target="_blank" rel="noopener noreferrer">
         <MagnifyingGlass size={32} weight="fill" />
       </Link>
-      <Link href={perplexityUrl}>
-        <Robot size={32} weight="fill" />
+      <Link href={perplexityUrl} target="_blank" rel="noopener noreferrer">
+        <PerplexityLogo width="30" height="30" />
       </Link>
     </>
   );
@@ -81,6 +81,7 @@ type Artist = {
   tiktokUrl?: string | null;
   facebookUrl?: string | null;
   twitterUrl?: string | null;
+  sunAndBassUrl?: string | null;
 };
 
 const allArtists: Artist[] = lineup.artists as Artist[];
@@ -176,7 +177,7 @@ export function ArtistGallery() {
           </a>
         </h2>
         <p>This fan site is not affiliated with sun and bass</p>
-        <a href="https://github.com/headwinds/sun-and-bass">
+        <a href="https://github.com/headwinds/sun-and-bass" target="_blank">
           <GithubLogo size={32} weight="fill" />{" "}
         </a>
       </div>
