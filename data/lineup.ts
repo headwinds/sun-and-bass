@@ -167,7 +167,7 @@ export const lineup = {
     {
       artistName: "Ben Soundscape",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=lx5-wADiqG0&t=4s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/bensoundscape",
       photoUrl: null,
@@ -178,7 +178,7 @@ export const lineup = {
     {
       artistName: "Benny L",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=-FuBRuy6uME&t=1s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/bennyl",
       photoUrl: null,
@@ -189,7 +189,7 @@ export const lineup = {
     {
       artistName: "Big Bud",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=JKCKHZeIVjA",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/bigbud",
       photoUrl: null,
@@ -200,7 +200,7 @@ export const lineup = {
     {
       artistName: "Big T",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=524aIpG7ak0",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -211,7 +211,7 @@ export const lineup = {
     {
       artistName: "Blackeye",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=L5Q3xGJmXfI&t=4s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -222,7 +222,7 @@ export const lineup = {
     {
       artistName: "Blindside",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=kEzS3npvZvw",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/blindside",
       photoUrl: null,
@@ -233,7 +233,7 @@ export const lineup = {
     {
       artistName: "Break",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=KHxNV9yMjj8",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/break",
       photoUrl: null,
@@ -244,7 +244,8 @@ export const lineup = {
     {
       artistName: "Breakage",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl:
+        "https://www.youtube.com/watch?v=ZZhw0Qb7WD4&list=PLhANst9LFg8nKaP5DbCwOpQw8nMCjR5DB&index=1",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/breakage",
       photoUrl: null,
@@ -255,7 +256,7 @@ export const lineup = {
     {
       artistName: "Bryan G",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=tUpL8eZ4DyA",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/bryang",
       photoUrl: null,
@@ -266,7 +267,7 @@ export const lineup = {
     {
       artistName: "Calibre",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=lmfYCSUh4No&t=1s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/calibre",
       photoUrl: null,
@@ -277,7 +278,7 @@ export const lineup = {
     {
       artistName: "Catching Cairo",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=Pfn5PMeI-mI",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/catchingcairo",
       photoUrl: null,
@@ -287,8 +288,8 @@ export const lineup = {
     },
     {
       artistName: "Charla Green",
-      linktreeUrl: null,
-      youtubeUrl: null,
+      linktreeUrl: "https://linktr.ee/CharlaGreen",
+      youtubeUrl: "https://www.youtube.com/watch?v=w5orNxQYK7E",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -885,7 +886,7 @@ export const lineup = {
     {
       artistName: "Lens",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=AYDQMMpiYLo&t=69s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/lens_dnb",
       photoUrl: "https://ukf.com/wp-content/uploads/2023/11/Lens-headshot.jpg",
