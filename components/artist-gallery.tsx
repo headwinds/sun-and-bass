@@ -89,7 +89,7 @@ const allArtists: Artist[] = lineup.artists as Artist[];
 const Country = ({ country }: { country: string }) => {
   return (
     <div className="flex items-center space-x-2 justify-center">
-      <div className="w-[60px] h-[60px]">
+      <div className="w-[50px] h-[35px]">
         <Flag code={getCode(country)} />
       </div>
       {/*<span>{country}</span>*/}

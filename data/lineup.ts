@@ -1248,18 +1248,18 @@ export const lineup = {
     {
       artistName: "S.P.Y",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=ep_7SZAqTeI",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/spy",
       photoUrl: null,
-      homeCountry: "United Kingdom",
+      homeCountry: "Brazil",
       instagramUrl: "https://www.instagram.com/spydnb",
       tiktokUrl: null,
     },
     {
       artistName: "Sabrina",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=XfgodjbaJ34",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1270,7 +1270,7 @@ export const lineup = {
     {
       artistName: "Seba",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=bmH_xG4jtGM",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/seba",
       photoUrl: null,
@@ -1281,18 +1281,18 @@ export const lineup = {
     {
       artistName: "Sechi",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=GqpiaoRFao4",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
-      homeCountry: null,
+      homeCountry: "Canada",
       instagramUrl: null,
       tiktokUrl: null,
     },
     {
       artistName: "Skeptical",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=YiGjAdvgquU",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/skeptical",
       photoUrl: null,
@@ -1303,7 +1303,7 @@ export const lineup = {
     {
       artistName: "Slay",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=UeBqg8MEZx0",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1314,7 +1314,7 @@ export const lineup = {
     {
       artistName: "Sofi Mari",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=Vn6I5waURSg",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1325,7 +1325,7 @@ export const lineup = {
     {
       artistName: "Solah",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=JFbPwEVtC_U",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1336,7 +1336,7 @@ export const lineup = {
     {
       artistName: "Soulsurfer",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=eLvent_6L1g&t=2s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1347,7 +1347,7 @@ export const lineup = {
     {
       artistName: "Soultrain",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=VOoOlAxdy6I&t=3s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1369,7 +1369,7 @@ export const lineup = {
     {
       artistName: "Stamina",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=TFps_zLdlNo",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1380,18 +1380,18 @@ export const lineup = {
     {
       artistName: "Steo",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=HuZhFawH1qQ&t=2s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
-      homeCountry: null,
+      homeCountry: "Ireland",
       instagramUrl: null,
       tiktokUrl: null,
     },
     {
       artistName: "Storm",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=o1Hrpk_PzVk",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1402,7 +1402,7 @@ export const lineup = {
     {
       artistName: "Strife",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=ouqOW_a1Ir4&t=2s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1413,7 +1413,7 @@ export const lineup = {
     {
       artistName: "T-Man",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=VMyeYDfCmXI&t=3s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1424,7 +1424,7 @@ export const lineup = {
     {
       artistName: "T.R.A.C.",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=wPgNiKRVi3k",
       websiteUrl: "https://www.vrecordings.com/artist/t-r-a-c",
       soundcloudUrl: null,
       photoUrl: null,
@@ -1435,7 +1435,7 @@ export const lineup = {
     {
       artistName: "Tamen",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=wWFfEp0DcNE",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1446,7 +1446,7 @@ export const lineup = {
     {
       artistName: "The Sauce",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=KyWne5UL2zI",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1457,7 +1457,7 @@ export const lineup = {
     {
       artistName: "The Untouchables",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=hgV-XFa3VCs&t=1s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1468,7 +1468,7 @@ export const lineup = {
     {
       artistName: "Think Tonk",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=Q3cxX_Ymr8Q",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1479,7 +1479,7 @@ export const lineup = {
     {
       artistName: "Trax",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=IDmpYjSizXs&t=2s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1490,7 +1490,7 @@ export const lineup = {
     {
       artistName: "Trex",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=vwozDd2iE6s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1501,7 +1501,7 @@ export const lineup = {
     {
       artistName: "Unglued",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=6wUuG5CgRAs&t=1s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/unglued",
       photoUrl: null,
@@ -1512,7 +1512,7 @@ export const lineup = {
     {
       artistName: "Upzet",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=Sa8U3fm1yCk",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1523,7 +1523,7 @@ export const lineup = {
     {
       artistName: "Verbz",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=19eSTvWbV3c",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/verbz",
       photoUrl: null,
@@ -1535,7 +1535,7 @@ export const lineup = {
     {
       artistName: "Visionobi",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=m2gsawPo_5k",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/visionobi",
       photoUrl: null,
@@ -1546,7 +1546,7 @@ export const lineup = {
     {
       artistName: "West",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=7YrR8B6lIMI",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1557,7 +1557,7 @@ export const lineup = {
     {
       artistName: "Workforce",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=UAuBHPerGvk",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/workforce",
       photoUrl: null,
@@ -1568,7 +1568,7 @@ export const lineup = {
     {
       artistName: "Zar",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=Bu8bhLqRCik",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -1579,7 +1579,7 @@ export const lineup = {
     {
       artistName: "Zero T",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=DGdNyeymBcY",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/zerot",
       photoUrl: null,
