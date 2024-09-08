@@ -14,7 +14,6 @@ import {
   LinkSimple,
   MagnifyingGlass,
   GithubLogo,
-  YoutubeLogo,
 } from "@phosphor-icons/react";
 import Image from "next/image";
 import Flag from "react-world-flags";
@@ -54,7 +53,7 @@ const getPerplexitySearch = (artist: Artist): string => {
 
 const SearchInternet = ({ artist }: { artist: Artist }) => {
   const googleUrl = getGoogleSearch(artist) ?? "";
-
+  console.log("what", googleUrl);
   const perplexityUrl = getPerplexitySearch(artist) ?? "";
 
   return (
@@ -98,17 +97,8 @@ const Country = ({ country }: { country: string }) => {
   );
 };
 
-const ArtistImgOrPlayer = ({
-  artist,
-  selectedArtistYoutube,
-}: {
-  artist: Artist;
-  selectedArtistYoutube: Artist;
-}) => {
-  const isSelectedYoutube =
-    artist.artistName === selectedArtistYoutube.artistName;
-
-  if (artist.youtubeUrl && isSelectedYoutube) {
+const ArtistImgOrPlayer = ({ artist }: { artist: Artist }) => {
+  if (artist.youtubeUrl) {
     return (
       <div className="aspect-w-16 aspect-h-9">
         <ReactPlayer
@@ -119,24 +109,6 @@ const ArtistImgOrPlayer = ({
         />
       </div>
     );
-  }
-
-  if (artist.youtubeUrl && !isSelectedYoutube) {
-    if (artist.photoUrl) {
-      return (
-        <Image
-          src={artist.photoUrl}
-          alt={artist.artistName}
-          className="w-full h-48 object-cover"
-          //fill={true}
-          //className="object-cover"
-          width={300}
-          height={200}
-        />
-      );
-    }
-
-    return null;
   }
 
   if (artist.soundcloudUrl) {
@@ -175,11 +147,6 @@ const ArtistImgOrPlayer = ({
 
 export function ArtistGallery() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedArtistYoutube, setSelectedArtistYoutube] = useState(false);
-
-  const handleYoutube = (artist: Artist) => {
-    setSelectedArtistYoutube(artist);
-  };
 
   const fuse = useMemo(
     () =>
@@ -249,6 +216,19 @@ export function ArtistGallery() {
           size={20}
         />
       </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        {allArtists.map((artist) => (
+          <Link
+            key={artist.artistName}
+            href={`/artist/${artist.artistName}`}
+            className="bg-white rounded-lg shadow-lg p-4 hover:shadow-xl transition-shadow duration-300"
+          >
+            <h2 className="text-xl font-semibold text-center">
+              {artist.artistName}
+            </h2>
+          </Link>
+        ))}
+      </div>
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="flex w-auto -ml-4"
@@ -266,19 +246,8 @@ export function ArtistGallery() {
                     ""
                   )}
                 </div>
-                <ArtistImgOrPlayer
-                  artist={artist}
-                  selectedArtistYoutube={selectedArtistYoutube}
-                />
-
+                <ArtistImgOrPlayer artist={artist} />
                 <div className="flex space-x-2 rounded-sm bg-stone-100 p-2">
-                  {artist.youtubeUrl ? (
-                    <button onClick={() => handleYoutube(artist)}>
-                      <div className="text-red-500 hover:text-red-700 transition-colors duration-300">
-                        <YoutubeLogo size={32} weight="fill" />
-                      </div>
-                    </button>
-                  ) : null}
                   {artist.websiteUrl ? (
                     <a
                       href={artist.websiteUrl}
@@ -360,6 +329,7 @@ export function ArtistGallery() {
                       <Camera size={32} weight="fill" />
                     </a>
                   ) : null}
+
                   <SearchInternet artist={artist} />
                 </div>
               </div>
