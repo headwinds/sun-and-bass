@@ -15,6 +15,7 @@ export const countryMap: CountryMap = {
   France: "FR",
   "United States": "US",
   Ireland: "IE",
+  Canada: "CA",
 };
 
 export const lineup = {
@@ -568,7 +569,7 @@ export const lineup = {
     {
       artistName: "Echo Brown",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=CGjpWqdE7L0",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -579,7 +580,7 @@ export const lineup = {
     {
       artistName: "EKTO1",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=H86LKY2eg8w",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/ekto1",
       photoUrl: null,
@@ -590,7 +591,7 @@ export const lineup = {
     {
       artistName: "EVABEE",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=FBpIvAS5ZVk",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/evabee",
       photoUrl: null,
@@ -601,7 +602,7 @@ export const lineup = {
     {
       artistName: "Fabio & Grooverider",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=q1e2TKZwMAo",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/fabioandgrooverider",
       photoUrl: null,
@@ -612,7 +613,7 @@ export const lineup = {
     {
       artistName: "Fava",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=ue_OlEWyDhc",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -623,7 +624,7 @@ export const lineup = {
     {
       artistName: "FD",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=mKM6MQpv5S8",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/fd",
       photoUrl: null,
@@ -638,6 +639,7 @@ export const lineup = {
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
+      photoSource: null,
       homeCountry: null,
       instagramUrl: null,
       tiktokUrl: null,
@@ -645,11 +647,11 @@ export const lineup = {
     {
       artistName: "Flore",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=a6g6jyXD92w",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/flore",
       photoUrl: null,
-      homeCountry: null,
+      homeCountry: "Canada",
       instagramUrl: null,
       tiktokUrl: null,
     },
@@ -657,7 +659,7 @@ export const lineup = {
     {
       artistName: "Fox",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=ymXNY-km7Is",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/fox",
       photoUrl: null,
@@ -671,7 +673,9 @@ export const lineup = {
       youtubeUrl: null,
       websiteUrl: null,
       soundcloudUrl: null,
-      photoUrl: null,
+      photoUrl:
+        "https://i1.sndcdn.com/avatars-Y465SdxDsrbr8qp5-ubduSQ-t1080x1080.jpg",
+      photoSource: "https://soundcloud.com/utm-spotlight/utm-spotlight-foxic",
       homeCountry: null,
       instagramUrl: null,
       tiktokUrl: null,
@@ -679,7 +683,7 @@ export const lineup = {
     {
       artistName: "Fracture",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=he-sL6pmAlw",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/fracture",
       photoUrl: null,
@@ -690,7 +694,7 @@ export const lineup = {
     {
       artistName: "GQ",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=1ggsND8KYiM",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -701,7 +705,7 @@ export const lineup = {
     {
       artistName: "Hindsight",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=ZzRVeINrOfA&t=67s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -712,7 +716,7 @@ export const lineup = {
     {
       artistName: "IAMDOOMED",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=Gbr-3dyLm9I",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -723,7 +727,7 @@ export const lineup = {
     {
       artistName: "Illmatika",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=EJlpaolewfA",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/illmatika",
       photoUrl: null,
@@ -745,7 +749,7 @@ export const lineup = {
     {
       artistName: "J:Kenzo",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=uLfzzyHcfS0&t=1s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/jkenzo",
       photoUrl: null,
@@ -756,7 +760,7 @@ export const lineup = {
     {
       artistName: "Jet Li",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=2CHaBX5y1gs",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -780,7 +784,7 @@ export const lineup = {
     {
       artistName: "Jubei",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=QliccXRR_ks",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -791,7 +795,7 @@ export const lineup = {
     {
       artistName: "Jumping Jack Frost",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=ghtpAHFPneM&t=2s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,

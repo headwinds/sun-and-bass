@@ -111,6 +111,19 @@ const ArtistImgOrPlayer = ({ artist }: { artist: Artist }) => {
     );
   }
 
+  if (artist.soundcloudUrl) {
+    return (
+      <div className="aspect-w-16 aspect-h-9">
+        <ReactPlayer
+          url={artist.soundcloudUrl}
+          width="100%"
+          height="100%"
+          controls={true}
+        />
+      </div>
+    );
+  }
+
   if (artist.photoUrl) {
     return (
       <Image

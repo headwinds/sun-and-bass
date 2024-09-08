@@ -27,6 +27,7 @@ const nextConfig = {
         protocol: "https",
         hostname: "sunandbass.net",
       },
+      { protocol: "https", hostname: "i1.sndcdn.com" },
     ],
   },
 };
