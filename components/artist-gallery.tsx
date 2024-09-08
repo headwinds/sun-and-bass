@@ -174,6 +174,15 @@ export function ArtistGallery() {
           Visit the official{" "}
           <a href="https://sunandbass.net/" className="underline">
             sunandbass.net
+          </a>{" "}
+          and live stream on{" "}
+          <a
+            href="https://bassdrive.com"
+            className="underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            bassdrive.com
           </a>
         </h2>
         <p>This fan site is not affiliated with sun and bass</p>

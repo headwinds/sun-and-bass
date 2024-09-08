@@ -98,8 +98,7 @@ export const lineup = {
     {
       artistName: "Anile",
       linktreeUrl: null,
-      youtubeUrl:
-        "https://www.perplexity.ai/search/drum-and-bass-artist-anile-8MsK.wq_S_WCG89CCUJ7Mg",
+      youtubeUrl: "https://www.youtube.com/watch?v=zeCydZdvutw",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/anile",
       photoUrl: null,
@@ -111,8 +110,7 @@ export const lineup = {
     {
       artistName: "AMA",
       linktreeUrl: null,
-      youtubeUrl:
-        "https://www.perplexity.ai/search/new?q=pending&newFrontendContextUUID=0f3e7a92-4efe-43a9-938d-5e46eacf545c",
+      youtubeUrl: "https://www.youtube.com/watch?v=edtfYm1iAZk",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -300,7 +298,7 @@ export const lineup = {
     {
       artistName: "Charlotte Devaney",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=18vmZC3nzJU",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/charlotte-devaney",
       photoUrl: null,
@@ -311,7 +309,7 @@ export const lineup = {
     {
       artistName: "Chef",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=c1StRXa2cAw&t=1s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -322,7 +320,7 @@ export const lineup = {
     {
       artistName: "Chickaboo",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=YFxRLrhmVcs&t=1s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -333,7 +331,7 @@ export const lineup = {
     {
       artistName: "Children of Zeus",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=-REjAEHIakY&t=9s",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/childrenofzeus",
       photoUrl: null,
@@ -344,7 +342,7 @@ export const lineup = {
     {
       artistName: "Chinese Daughter",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=eYcYEK_gmVg",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -355,7 +353,7 @@ export const lineup = {
     {
       artistName: "Chris.SU",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=86xdVDlBBE4",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/chris-su",
       photoUrl: null,
@@ -366,7 +364,7 @@ export const lineup = {
     {
       artistName: "Cleveland Watkiss",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=ffutJiQyzNs",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -377,7 +375,7 @@ export const lineup = {
     {
       artistName: "Collette Warren",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=-RxVtv3cEKA",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/collettewarren",
       photoUrl: null,
@@ -388,7 +386,7 @@ export const lineup = {
     {
       artistName: "Cray Dee",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=ef1X8pYdeD0&t=1s",
       websiteUrl: null,
       soundcloudUrl: null,
       photoUrl: null,
@@ -399,7 +397,7 @@ export const lineup = {
     {
       artistName: "dBridge",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=mVPeJfk58JI",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/dbridge",
       photoUrl: null,
@@ -410,7 +408,7 @@ export const lineup = {
     {
       artistName: "Decibella",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=pJNeYeIrM8U",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/decibella",
       photoUrl: null,
@@ -421,7 +419,7 @@ export const lineup = {
     {
       artistName: "Degs",
       linktreeUrl: null,
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=z0GyvcbRXHI",
       websiteUrl: null,
       soundcloudUrl: "https://soundcloud.com/degs",
       photoUrl: null,
