@@ -134,7 +134,7 @@ const ArtistImgOrPlayer = ({
   }
 
   if (artist.youtubeUrl && !isSelectedYoutube) {
-    if (!artist.photoUrl) {
+   //if (!artist.photoUrl) {
       const photoUrl = getYoutubeThumbnail(artist.youtubeUrl);
 
       if (photoUrl === "") {
@@ -154,7 +154,7 @@ const ArtistImgOrPlayer = ({
           />
         </button>
       );
-    }
+   //}
 
     if (artist.photoUrl) {
       return (
