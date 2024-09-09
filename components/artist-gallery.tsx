@@ -112,10 +112,12 @@ const ArtistImgOrPlayer = ({
   artist,
   selectedArtistYoutube,
   onClick,
+  onContributeClick
 }: {
   artist: Artist;
   selectedArtistYoutube: Artist | null;
   onClick?: () => void;
+  onContributeClick?: () => void;
 }) => {
   const isSelectedYoutube =
     artist?.artistName === selectedArtistYoutube?.artistName;
@@ -184,9 +186,11 @@ const ArtistImgOrPlayer = ({
   }
 
   return (
-    <div className="w-full h-48 bg-gray-300 flex items-center justify-center">
-      <span className="text-gray-500 text-2xl">😔 no photo</span>
+    <button onClick={() => onContributeClick()}>
+    <div className="w-full h-full  flex items-center justify-center m-4">
+      <p className="text-gray-500 text-1xl">😔 Got a Youtube link?</p>
     </div>
+    </button>
   );
 };
 
@@ -220,6 +224,10 @@ export function ArtistGallery() {
     700: 2,
     500: 1,
   };
+
+  const onContributeClick = () => {
+    window.open("https://github.com/headwinds/sun-and-bass/discussions", "_blank");
+  }
 
   return (
     <div className="container mx-auto px-4 py-8 bg-gray-100">
@@ -288,6 +296,7 @@ export function ArtistGallery() {
                   artist={artist}
                   selectedArtistYoutube={selectedArtistYoutube}
                   onClick={() => handleYoutube(artist)}
+                  onContributeClick={onContributeClick}
                 />
 
                 <div className="flex space-x-2 rounded-sm bg-stone-100 p-2">
