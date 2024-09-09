@@ -98,6 +98,12 @@ const Country = ({ country }: { country: string }) => {
   );
 };
 
+const getYoutubeThumbnail = (url: string): string => {
+  const videoId = url.match(/v=([^&]*)/)[1];
+  const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+  return thumbnailUrl;
+};
+
 const ArtistImgOrPlayer = ({
   artist,
   selectedArtistYoutube,
@@ -122,6 +128,22 @@ const ArtistImgOrPlayer = ({
   }
 
   if (artist.youtubeUrl && !isSelectedYoutube) {
+    if (!artist.photoUrl) {
+      const photoUrl = getYoutubeThumbnail(artist.youtubeUrl);
+
+      return (
+        <Image
+          src={photoUrl}
+          alt={artist.artistName}
+          className="w-full h-48 object-cover"
+          //fill={true}
+          //className="object-cover"
+          width={260}
+          height={200}
+        />
+      );
+    }
+
     if (artist.photoUrl) {
       return (
         <Image
@@ -130,7 +152,7 @@ const ArtistImgOrPlayer = ({
           className="w-full h-48 object-cover"
           //fill={true}
           //className="object-cover"
-          width={300}
+          width={260}
           height={200}
         />
       );
