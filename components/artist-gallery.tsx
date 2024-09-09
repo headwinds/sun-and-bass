@@ -241,13 +241,13 @@ export function ArtistGallery() {
         Sun and Bass Artists 2024
       </h1>
 
-      <div className="flex flex-col justify-center w-full items-center m-4">
-        <h2>
+      <div className="flex flex-col justify-center w-full items-center m-2">
+        <h2 className="text-center m-2">
           Visit the official{" "}
           <a href="https://sunandbass.net/" className="underline">
             sunandbass.net
           </a>{" "}
-          and live stream on{" "}
+          and stream on{" "}
           <a
             href="https://bassdrive.com"
             className="underline"
@@ -259,7 +259,8 @@ export function ArtistGallery() {
         </h2>
         <p>This fan site is not affiliated with sun and bass</p>
         <a href="https://github.com/headwinds/sun-and-bass" target="_blank">
-          <GithubLogo size={32} weight="fill" />{" "}
+      <GithubLogo size={32} weight="fill" />{" "}
+      
         </a>
       </div>
       <div className="relative mb-8 max-w-md mx-auto">
