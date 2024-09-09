@@ -186,7 +186,7 @@ const ArtistImgOrPlayer = ({
   }
 
   return (
-    <button onClick={() => onContributeClick()}>
+    <button onClick={() => onContributeClick?.()}>
     <div className="w-full h-full  flex items-center justify-center m-4">
       <p className="text-gray-500 text-1xl">😔 Got a Youtube link?</p>
     </div>
