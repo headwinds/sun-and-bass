@@ -111,9 +111,11 @@ const getYoutubeThumbnail = (url: string): string => {
 const ArtistImgOrPlayer = ({
   artist,
   selectedArtistYoutube,
+  onClick,
 }: {
   artist: Artist;
   selectedArtistYoutube: Artist | null;
+  onClick?: () => void;
 }) => {
   const isSelectedYoutube =
     artist?.artistName === selectedArtistYoutube?.artistName;
@@ -140,15 +142,17 @@ const ArtistImgOrPlayer = ({
       }
 
       return (
-        <Image
-          src={photoUrl}
-          alt={artist.artistName}
-          className="w-full h-48 object-cover"
-          //fill={true}
-          //className="object-cover"
-          width={260}
-          height={200}
-        />
+        <button onClick={onClick}>
+          <Image
+            src={photoUrl}
+            alt={artist.artistName}
+            className="w-full h-48 object-cover"
+            //fill={true}
+            //className="object-cover"
+            width={260}
+            height={200}
+          />
+        </button>
       );
     }
 
@@ -300,6 +304,7 @@ export function ArtistGallery() {
                 <ArtistImgOrPlayer
                   artist={artist}
                   selectedArtistYoutube={selectedArtistYoutube}
+                  onClick={() => handleYoutube(artist)}
                 />
 
                 <div className="flex space-x-2 rounded-sm bg-stone-100 p-2">
