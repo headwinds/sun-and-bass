@@ -99,7 +99,11 @@ const Country = ({ country }: { country: string }) => {
 };
 
 const getYoutubeThumbnail = (url: string): string => {
-  const videoId = url.match(/v=([^&]*)/)[1];
+  if (url === null || url === undefined) {
+    return "";
+  }
+  const videoId = url.match(/v=([^&]*)/)?.[1] ?? "";
+  if (videoId === "") return "";
   const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
   return thumbnailUrl;
 };
@@ -130,6 +134,10 @@ const ArtistImgOrPlayer = ({
   if (artist.youtubeUrl && !isSelectedYoutube) {
     if (!artist.photoUrl) {
       const photoUrl = getYoutubeThumbnail(artist.youtubeUrl);
+
+      if (photoUrl === "") {
+        return null;
+      }
 
       return (
         <Image
