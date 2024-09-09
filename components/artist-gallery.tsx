@@ -134,7 +134,7 @@ const ArtistImgOrPlayer = ({
   }
 
   if (artist.youtubeUrl && !isSelectedYoutube) {
-   //if (!artist.photoUrl) {
+
       const photoUrl = getYoutubeThumbnail(artist.youtubeUrl);
 
       if (photoUrl === "") {
@@ -154,23 +154,6 @@ const ArtistImgOrPlayer = ({
           />
         </button>
       );
-   //}
-
-    if (artist.photoUrl) {
-      return (
-        <Image
-          src={artist.photoUrl}
-          alt={artist.artistName}
-          className="w-full h-48 object-cover"
-          //fill={true}
-          //className="object-cover"
-          width={260}
-          height={200}
-        />
-      );
-    }
-
-    return null;
   }
 
   if (artist.soundcloudUrl) {
